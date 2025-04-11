@@ -64,3 +64,6 @@ console.log(number +" "+ typeof number);
 
 let convertNumbertoBoolean = Boolean(number);
 console.log(convertNumbertoBoolean +" "+ typeof convertNumbertoBoolean);
+
+
+// node 01_javascript_basic/03_datatypes.conversion.js  To Run The Code 
