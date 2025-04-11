@@ -59,11 +59,31 @@
 
 //Conveting every datatype into boolean.
 
-let number  = 1;
-console.log(number +" "+ typeof number);
+// let number  = 1;
+// console.log(number +" "+ typeof number);
 
-let convertNumbertoBoolean = Boolean(number);
-console.log(convertNumbertoBoolean +" "+ typeof convertNumbertoBoolean);
+// let convertNumbertoBoolean = Boolean(number);
+// console.log(convertNumbertoBoolean +" "+ typeof convertNumbertoBoolean);
 
 
-// node 01_javascript_basic/03_datatypes.conversion.js  To Run The Code 
+// ****************************** Operations **************************************
+console.log("2" + 2);
+console.log(2 + "2");
+console.log("2" + 1 + 1);
+console.log(2 + 1 + "1");
+ 
+console.log(+true);
+console.log(-true);
+console.log(+"");
+console.log(-"");
+
+// Postfix
+let score = 100;
+let newScore = score++;
+console.log(score + ' '+newScore);
+
+// Prefix
+
+let result=1
+let newResult = ++result;
+console.log(result+' '+ newResult);
