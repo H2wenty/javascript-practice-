@@ -48,3 +48,5 @@ let func= function mern(name) {
 
 
     console.log(typeof func)
+
+    
