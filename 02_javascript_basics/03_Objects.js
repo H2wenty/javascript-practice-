@@ -18,9 +18,10 @@ const obj={
 
 // console.log(obj.name);
 // console.log(obj['full name']);
-// console.log(obj[mySym]);
-// console.log(typeof obj[mySym]);
-
+console.log(obj[mySym]);
+console.log(typeof obj[mySym]);
+console.log(obj);
+ 
 obj.email= 'huzaifa@google.com'
 
 // Object.freeze(obj);
