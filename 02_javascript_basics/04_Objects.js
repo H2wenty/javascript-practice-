@@ -47,3 +47,27 @@ const user=[
 // console.log(fbUser.hasOwnProperty('email'));
 
 
+//Object de-structure
+
+const ytChannel={
+    email:'muhammadhuzaifa@gmail.com',
+    ytName:'Vosprin',
+    channelOwner:'Muhammad Huzaifa'
+}
+
+const {channelOwner:owner} = ytChannel
+// console.log(channelOwner);
+console.log(owner);
+
+// Json API
+
+// {
+//     'name':'huzaifa',
+//     'email':'h@gmail.com'
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
