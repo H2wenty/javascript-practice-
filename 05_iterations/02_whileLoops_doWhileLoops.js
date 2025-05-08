@@ -29,11 +29,11 @@ while (index<=10) {
 // do while loop
 let score=1
 do {
-    console.log(score);
+    // console.log(score);
     score++
 } while (score<=10);
 
-let num1=1
+let num1=11
 do {
     console.log(`multiplication table of ${num1}`);
     let num2=1;
