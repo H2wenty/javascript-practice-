@@ -36,5 +36,5 @@ const mylanguages=[
 
 mylanguages.forEach((item)=>{
     console.log(`${item.languageName} file extention is ${item.fileName}`);
-    
+     
 })
