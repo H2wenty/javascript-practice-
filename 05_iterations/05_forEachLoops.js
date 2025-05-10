@@ -31,7 +31,7 @@ const mylanguages=[
     {
         languageName:'Sturcture Query Language',
         fileName:'sql'
-    }
+    } 
 ]
 
 mylanguages.forEach((item)=>{
